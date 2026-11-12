@@ -1,0 +1,9 @@
+# Dependencias
+node_modules/
+# Compilados
+dist/
+# Multimedia pesada
+media/
+# Logs y variables de entorno
+*.log
+.env
