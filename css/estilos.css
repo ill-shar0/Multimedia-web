@@ -1,0 +1,20 @@
+/* Móvil primero */
+nav { display: none; flex-direction: column; }
+nav.abierto { display: flex; }
+img { width: 100%; }
+
+/* Tableta */
+@media (min-width: 600px) {
+  nav { display: flex; flex-direction: row; gap: 1rem; }
+  #btn-menu { display: none; }
+}
+
+/* Escritorio */
+@media (min-width: 1024px) {
+  body { max-width: 1200px; margin: 0 auto; }
+}
+
+/* Encabezado con menú */
+header { display: flex; justify-content: space-between; align-items: center; }
+/* Ajuste de tableta */
+@media (min-width: 600px) { nav a { font-size: 1.1rem; } }
